@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Community Clean Up Home</title>
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Raleway:wght@400;500;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!-- -----------------------START NAVBAR HERE-------------------------------------------------------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        <a class="navbar-brand" href="#" id="navbarBrand">Community Cleanup</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <!-- -----------------------------------END NAVBAR HERE------------------------------------------------- -->
+
+      <h1>Volunteer for the  <span id="communityNameHeader" class="placeholder"> Placeholder </span> Community Cleanup Day</h1>  
+      <div id="cleanupInfo" >
+        <p><strong>Date:</strong><span class="placeholder" id="date">placeholder</span></p>
+        <p><strong>Time:</strong><span class="placeholder" id="time">placeholder</span></p>
+        <p><strong>Meeting Point:</strong><span class="placeholder" id="meetingPoint">placeholder</span></p>
+      </div>
+
+      <div id="form">
+        <label for ="teamName">Team Name:
+          <input type="text" placeholder="Team Name" id="firstName" name="teamName"required>
+        </label><br>
+        
+            </label></div>
+    
+          <h3>Team Members</h3>
+        <label for ="firstName">First Name:
+          <input type="text" placeholder="first Name" id="firstName" name="fprimaryFirstName"required>
+        </label><br>
+        <label for ="LastName">Last Name:
+            <input type="text" placeholder="Last Name" id="LastName" name="primaryLastName"required>
+        </label>
+      
+        <br>
+        <label for="phone"> Phone:</label>
+<input type="tel" id="phone" placeholder="012-345-6789" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}[0-9]{4}">
+      <br>
+              
+        
+     
+        
+      <label for ="email">Email:
+        <input type="email" placeholder="email address" name="email" id="email" required>
+      </label>
+      <!-- THIS DIV IS WHERE i'M TRYING TO APPEND TEXT INPUTS -->
+      <div class="container additionalTeamMembers" id="addTeamMemberDiv"></div>
+
+      <button id="addMoreTeamButton" onclick="addTeamMembers()">Add Team Member <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-plus-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm7.5-3a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+      </svg></button>
+      
+      
+      
+      
+      
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script></html>
