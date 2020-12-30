@@ -1,0 +1,23 @@
+{
+  "name": "05_express_advanced_topics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "config": "^3.3.3",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "helmet": "^4.3.1",
+    "joi": "^17.3.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "pug": "^3.0.0",
+    "tiny": "0.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
